@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Project to Practice to Convert Figma to Next JS (React Js)
+
+## Demo 
+- https://food-app-alpha.vercel.app/
+
+## Figma Design
+ -https://www.figma.com/file/MeWkLf6IfvoT7bVe7lGC2I/Food-delivery-app-Ui-kit-(Community)?node-id=0%3A1
 
 ## Getting Started
 

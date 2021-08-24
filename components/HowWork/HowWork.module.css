@@ -1,0 +1,111 @@
+.howWork {
+  margin-bottom: 152px;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.howWorkContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider {
+  border-top: 2px solid #e4e4e4;
+  width: 70%;
+  height: 2px;
+  display: block;
+  margin-bottom: 72px;
+}
+
+.howWorkContent h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #000000;
+  margin-bottom: 128px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.stepContent h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #fa4a0c;
+  margin-bottom: 16px;
+}
+
+.stepContent h3 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin-bottom: 24px;
+}
+
+.stepContent p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.WrapperImageStep {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .step {
+    flex-direction: row;
+  }
+
+  .inverseStep {
+    flex-direction: row-reverse;
+  }
+
+  .stepContent {
+    max-width: 560px;
+    text-align: left;
+  }
+
+  .WrapperImageStep {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .step .WrapperImageStep {
+    margin-right: 160px;
+  }
+
+  .inverseStep .WrapperImageStep {
+    margin-right: 0;
+    margin-left: 160px;
+  }
+}
